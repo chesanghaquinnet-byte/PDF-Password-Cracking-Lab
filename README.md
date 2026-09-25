@@ -288,7 +288,7 @@ I started the password\-cracking process using the Networkwalks Password Cracker
 
 The tool tried password candidates against the supplied PDF hash\.
 
-After the process completed, the recovered password was displayed by the tool\.
+After the process completed, the recovered password was displayed by the tool as ***1qaz2wsx***
 
 ## Step 8 — Verify the Password
 
