@@ -152,8 +152,33 @@ john pdfhash2.txt
 
 John the Ripper processed the hash and successfully recovered the password.
 
+### Step 6 — Display the Cracked Password
+
+To display the recovered password, I used:
+
+```bash
+john --show pdfhash2.txt
+```
+
+The result showed that the password had been successfully cracked\.
+
+The recovered password was:
+
+```text
+password1
+```
+
+The output also showed:
+
+```text
+1 password hash cracked, 0 left
+```
+
+This confirmed that John the Ripper successfully recovered the password\.
 
 
+### Step 7 — Verify the Password
 
+I used the recovered password to open the protected PDF and confirmed that the password worked\.
 
 
