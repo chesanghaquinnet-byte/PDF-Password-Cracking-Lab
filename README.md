@@ -4,7 +4,7 @@ A cybersecurity lab demonstrating PDF password cracking using John the Ripper an
 
 # Password Cracking Lab
 
-Introduction
+## Introduction
 
 Password cracking is the process of recovering a password from a protected file or stored password data.
 
