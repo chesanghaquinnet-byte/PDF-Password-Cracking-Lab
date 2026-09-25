@@ -199,5 +199,103 @@ The screenshot below shows the successful password recovery using John the Rippe
 ![Successfully Cracked Password](JTR-PDF2-cracked.png)
 
 
+# Method 2 — Networkwalks Tools
+
+For the second method, I followed the method provided in the lab instructions.
+
+This time I worked with:
 
 
+```text
+My Locked PDF3.pdf
+```
+
+Instead of using John the Ripper, I used the Networkwalks online tools.
+
+Step 1 — Download My Locked PDF3.pdf
+
+I downloaded:
+
+```text
+My Locked PDF3.pdf
+```
+
+to my Kali Linux Downloads folder.
+
+I confirmed that the file was available using:
+
+```bash
+ls -lh ~/Downloads
+```
+
+## Step 2 — Open the Networkwalks Hash Calculator
+
+I opened the Networkwalks Hash Calculator in Firefox:
+
+https://networkwalks\.com/hash\-calculator/
+
+The tool provides options for different types of files\.
+
+Since I was working with a PDF, I selected the **PDF** option\.
+
+## Step 3 — Upload the PDF
+
+I selected:
+
+```text
+My Locked PDF3.pdf
+```
+
+from my Kali Downloads folder and uploaded it to the Hash Calculator\.
+
+The tool processed the PDF and generated a hash\.
+
+## Step 4 — Copy the PDF Hash
+
+The generated hash started with:
+
+```text
+$pdf$
+```
+
+I copied the complete hash value\.
+
+The complete hash was required because missing even part of the hash could prevent the Password Cracker from processing it correctly\.
+
+## Step 5 — Open the Networkwalks Password Cracker
+
+I then opened the Networkwalks Password Cracker:
+
+https://networkwalks\.com/password\-cracker/
+
+The purpose of this tool was to use the extracted PDF hash to recover the original password\.
+
+## Step 6 — Enter the Hash
+
+Since the extracted hash was text, I selected the **Text** option in the Password Cracker\.
+
+I pasted the complete PDF hash beginning with:
+
+```text
+$pdf$
+```
+
+into the appropriate field\.
+
+## Step 7 — Start the Password Cracking Process
+
+I started the password\-cracking process using the Networkwalks Password Cracker\.
+
+The tool tried password candidates against the supplied PDF hash\.
+
+After the process completed, the recovered password was displayed by the tool\.
+
+## Step 8 — Verify the Password
+
+I used the recovered password to open:
+
+```text
+My Locked PDF3.pdf
+```
+
+This confirmed that the recovered password was correct\.
