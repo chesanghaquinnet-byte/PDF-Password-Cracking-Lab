@@ -182,3 +182,20 @@ This confirmed that John the Ripper successfully recovered the password\.
 I used the recovered password to open the protected PDF and confirmed that the password worked\.
 
 
+## Evidence
+
+The screenshots below show the practical work completed using John the Ripper on Kali Linux.
+
+### Kali Linux — JTR Password Cracking
+
+The screenshot below shows the John the Ripper process carried out in the Kali Linux terminal.
+
+![Kali Linux JTR Process](JTR-PDF2-cracking.png)
+
+### Successfully Cracked Password
+
+The screenshot below shows the successful password recovery using John the Ripper.
+
+
+
+
