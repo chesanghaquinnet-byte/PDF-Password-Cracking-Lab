@@ -421,3 +421,19 @@ The practical also reinforced the importance of using strong, unique passwords t
 This practical was performed in a controlled learning environment using the files provided for the lab\.
 
 Password\-cracking techniques should only be used on files, systems, or accounts where proper authorization has been given\.
+
+
+
+Project Information
+
+• Program Name: Cybersecurity at Networkwalks
+• Week: 03
+• Project: Cybersecurity Password Cracking
+• Repository: GitHub
+
+Author
+
+Chesangha Quinneta
+Networkwalks 2026 Intern
+
+LinkedIn: [https://www.linkedin.com/in/cyber~-nneta-77a37b3ab?utm_source=share_via&utm_content=profile&utm_medium=member_ios]
