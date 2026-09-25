@@ -196,6 +196,8 @@ The screenshot below shows the John the Ripper process carried out in the Kali L
 
 The screenshot below shows the successful password recovery using John the Ripper.
 
+![Successfully Cracked Password](JTR-PDF2-cracked.png)
+
 
 
 
