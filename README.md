@@ -310,3 +310,10 @@ The screenshots below show the different stages and results of the password-crac
    Calculator
 
 ![Networkwalks Hash Calculator](networkwalks-hash-calculator.png)
+
+
+### 2\. Networkwalks Password Cracker
+
+This screenshot shows the Networkwalks Password Cracker being used to crack the generated hash\.
+
+![Networkwalks Password Cracker](networkwalks-password-cracker.png)
