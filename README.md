@@ -299,3 +299,14 @@ My Locked PDF3.pdf
 ```
 
 This confirmed that the recovered password was correct\.
+
+
+## Evidence
+
+The screenshots below show the different stages and results of the password-cracking exercise.
+
+1. Networkwalks Hash Calculator
+
+   Calculator
+
+![Networkwalks Hash Calculator](networkwalks-hash-calculator.png)
