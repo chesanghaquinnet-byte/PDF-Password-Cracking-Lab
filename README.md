@@ -16,3 +16,33 @@ In this project, I worked with password-protected PDF files and used two differe
 2. Networkwalks Hash Calculator and Password Cracker
 
 The purpose of this lab was to understand how password cracking works and to practice the process in a controlled environment.
+
+
+## Project Overview
+
+For this lab, I worked with three password-protected PDF files:
+
+* My Locked PDF1.pdf
+* My Locked PDF2.pdf
+* My Locked PDF3.pdf
+
+I used the first two PDFs to practice password cracking with John the Ripper.
+
+For the third PDF, I used the Networkwalks Hash Calculator and Networkwalks Password Cracker, following the second method provided by my tutor.
+
+The general process was:
+
+was:
+
+```text
+Password-Protected PDF
+        ↓
+Extract PDF Hash
+        ↓
+Use Password Cracking Tool
+        ↓
+Recover Password
+        ↓
+Open the Protected PDF
+```
+
