@@ -69,3 +69,37 @@ The Networkwalks Password Cracker was then used to process the extracted PDF has
 Kali Linux was the environment used to perform the command-line part of the practical work.
 
 
+# Lab Environment
+
+The practical work was performed using:
+
+* Kali Linux
+* Firefox browser
+* Terminal
+* John the Ripper
+* pdf2john
+* Networkwalks Hash Calculator
+* Networkwalks Password Cracker
+
+
+## Method 1 — John the Ripper
+
+For the first method, I used Kali Linux and John the Ripper.
+
+## Step 1 — Download the PDF
+
+The first PDF was downloaded into the Kali Downloads folder.
+
+I checked the contents of the folder using:
+
+
+
+```bash
+cd ~/Downloads
+```
+
+
+
+
+
+
