@@ -424,14 +424,14 @@ Password\-cracking techniques should only be used on files, systems, or accounts
 
 
 
-Project Information
+# Project Information
 
 • Program Name: Cybersecurity at Networkwalks
 • Week: 03
 • Project: Cybersecurity Password Cracking
 • Repository: GitHub
 
-Author
+## Author
 
 Chesangha Quinneta
 Networkwalks 2026 Intern
