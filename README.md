@@ -90,6 +90,12 @@ For the first method, I used Kali Linux and John the Ripper.
 
 The first PDF was downloaded into the Kali Downloads folder.
 
+I checked the contents of the folder
+
+The file My Locked PDF2.pdf was available in the Downloads folder.
+
+## Step 2 — Move into the Downloads folder
+
 I checked the contents of the folder using:
 
 
@@ -97,6 +103,54 @@ I checked the contents of the folder using:
 ```bash
 cd ~/Downloads
 ```
+
+I then checked the files again:
+
+
+
+```bash
+ls -lh
+```
+
+### Step 3 — Extract the PDF Hash
+
+I used pdf2john to extract the password hash from the protected PDF:
+
+```bash
+pdf2john "My Locked PDF2.pdf" > pdfhash2.txt
+```
+
+This created a file called:
+
+```text
+pdfhash2.txt
+```
+
+### Step 4 — Check the Extracted Hash
+
+I checked the contents of the hash file:
+
+```bash
+cat pdfhash2.txt
+```
+
+The output contained a PDF hash beginning with:
+
+```text
+$pdf$
+```
+
+This hash was then used with John the Ripper.
+
+### Step 5 — Crack the Password
+
+I ran:
+
+```bash
+john pdfhash2.txt
+```
+
+John the Ripper processed the hash and successfully recovered the password.
 
 
 
