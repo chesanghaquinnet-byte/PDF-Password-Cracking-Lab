@@ -324,3 +324,100 @@ This screenshot shows the Networkwalks Password Cracker being used to crack the 
 This screenshot shows the PDF file after the password was successfully cracked and the file was opened\.
 
 ![Successfully Cracked File](networkwalks-cracked-file.png)
+
+
+## Commands Used
+
+The main Kali Linux commands used during the John the Ripper method were:
+
+```bash
+ls -lh ~/Downloads
+cd ~/Downloads
+ls -lh
+pdf2john "My Locked PDF1.pdf" > pdfhash.txt
+cat pdfhash.txt
+john pdfhash.txt
+john --show pdfhash.txt
+```
+
+For the second PDF:
+
+```bash
+ls -lh ~/Downloads
+cd ~/Downloads
+ls -lh
+pdf2john "My Locked PDF2.pdf" > pdfhash2.txt
+cat pdfhash2.txt
+john pdfhash2.txt
+john --show pdfhash2.txt
+```
+
+## Evidence
+
+Screenshots were taken during the practical work to document the process and results\.
+
+The evidence includes:
+
+- PDF files used in the lab
+- Extracted PDF hashes
+- John the Ripper commands
+- John the Ripper cracking results
+- Successful password recovery
+- Networkwalks Hash Calculator result
+- Networkwalks Password Cracker result
+- Successful access to the protected PDFs
+
+## Key Findings
+
+The practical demonstrated that password\-protected files can be tested by extracting the relevant password hash and using an appropriate password\-cracking tool\.
+
+The first two PDFs were successfully cracked using John the Ripper on Kali Linux\.
+
+The third PDF was processed using the Networkwalks Hash Calculator and Password Cracker\.
+
+The lab also showed that the time required to recover a password depends on factors such as password complexity and the password candidates being tested\.
+
+## Security Lessons
+
+This lab helped me understand why strong passwords are important\.
+
+Simple or commonly used passwords can be easier to recover during authorized password testing\.
+
+Some important password security practices include:
+
+- Use long and unique passwords\.
+- Avoid common words and predictable patterns\.
+- Avoid reusing the same password across different accounts\.
+- Use a password manager where appropriate\.
+- Enable multi\-factor authentication where available\.
+- Regularly review password security\.
+
+## What I Learned
+
+Through this practical, I learned how to:
+
+- Work with password\-protected PDF files\.
+- Extract PDF password hashes using `pdf2john`\.
+- Use John the Ripper from Kali Linux\.
+- Check and manage hash files\.
+- Display recovered passwords using `john --show`\.
+- Use a web\-based hash calculator\.
+- Use a password\-cracking tool through a web browser\.
+- Compare two different password\-cracking approaches\.
+- Document practical cybersecurity work with screenshots and evidence\.
+
+## Conclusion
+
+This project gave me hands\-on experience with password cracking in a controlled lab environment\.
+
+I learned that the process generally involves obtaining the password hash from a protected file and then using a suitable tool to test password candidates against the hash\.
+
+Using both John the Ripper and the Networkwalks tools helped me understand the process from different approaches\.
+
+The practical also reinforced the importance of using strong, unique passwords to reduce the risk of unauthorized password recovery\.
+
+## Disclaimer
+
+This practical was performed in a controlled learning environment using the files provided for the lab\.
+
+Password\-cracking techniques should only be used on files, systems, or accounts where proper authorization has been given\.
