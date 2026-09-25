@@ -323,4 +323,4 @@ This screenshot shows the Networkwalks Password Cracker being used to crack the 
 
 This screenshot shows the PDF file after the password was successfully cracked and the file was opened\.
 
-![Successfully Cracked File](successfully-cracked-file.png)
+![Successfully Cracked File](networkwalks-cracked-file.png)
