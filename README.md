@@ -317,3 +317,10 @@ The screenshots below show the different stages and results of the password-crac
 This screenshot shows the Networkwalks Password Cracker being used to crack the generated hash\.
 
 ![Networkwalks Password Cracker](networkwalks-password-cracker.png)
+
+
+### 3\. Successfully Cracked File
+
+This screenshot shows the PDF file after the password was successfully cracked and the file was opened\.
+
+![Successfully Cracked File](successfully-cracked-file.png)
