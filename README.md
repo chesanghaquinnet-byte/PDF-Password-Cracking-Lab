@@ -46,3 +46,26 @@ Recover Password
 Open the Protected PDF
 ```
 
+# Tools Used
+
+## John the Ripper
+
+John the Ripper (JTR) is a password-cracking tool that can be used to test password strength by trying different password candidates against a password hash.
+
+### pdf2john
+
+pdf2john was used to extract the password hash from the protected PDF so that John the Ripper could work with it.
+
+## Networkwalks Hash Calculator
+
+The Networkwalks Hash Calculator was used to extract the hash from the protected PDF through a web browser.
+
+## Networkwalks Password Cracker
+
+The Networkwalks Password Cracker was then used to process the extracted PDF hash and recover the password.
+
+## Kali Linux
+
+Kali Linux was the environment used to perform the command-line part of the practical work.
+
+
